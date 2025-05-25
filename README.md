@@ -9,3 +9,7 @@
 
 
 #### It took me around 1-2 day to complete the assignment, including designing the layout, writing the HTML/CSS/JavaScript, connecting to the API, and testing on different screen sizes. I initially expected it to take about 1-2 day, but I spent extra time refining the styling, debugging some API issues, and making the layout more responsive and polished. The additional time helped me better understand responsive design, API integration, and real-world problem-solving.
+
+
+## My-Link
+https://hussam-200.github.io/magical-characters/
