@@ -1,0 +1,129 @@
+ 
+
+ @font-face {
+  font-family: 'HarryP';
+src: url('../harry-p-font/HarryP-MVZ6w.ttf') format('truetype');
+
+}
+
+body {
+  font-family: 'HarryP', serif;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  color: #8B1E3F;
+  
+/* background-image: url('../image/Harry-Potte.webp'); */
+/* background-repeat: no-repeat;
+background-size: cover;
+background-position: center; */
+}
+
+
+#head {
+   height: 81px;
+    background: #000000;
+    display: flex
+;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 55px 39px 10px 33px;
+    color: #8B1E3F;
+    font-size: 41px;
+      /* background-image: url('../image/harry2.jpg');
+      background-repeat: no-repeat;
+background-size: cover;
+background-position: center;  */
+
+}
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  /* background-color: #272829; 
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;  */
+}
+.cards {
+        font-size: 23px;
+        background: #D8D9DA;
+    border: 3px solid black;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 16px 15px 12px 69px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    opacity: 0.8px;
+    background-image: url('../image/cardedit.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center; 
+    color:#8B1E3F;
+    transition: 0.8 ease;
+    }
+    .cards:hover{
+    transform: scale(1.1,1.1);
+}
+#image{
+    height: 181px;
+    width: 181px;
+    border-radius: 70px;
+
+}
+#info{
+    margin: 5px;
+}
+#character{
+    background-color: #61677A;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+  background-image: url('../image/0..1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+}
+.footer {
+  height: 97px;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8B1E3F;
+    font-size: 44px;
+}
+
+.main{width: 100%;
+    
+}
+/* #filter{
+        border: 1px black;
+    border-radius: 4px;
+    height: 26px;
+    width: 133px;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+}  */
+#filter {
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 36px;
+  width: 133px;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+      font-family: 'HarryP';
+          font-size: 25px;
+          background-color:#8B1E3F ;
+
+}
